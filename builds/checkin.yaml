@@ -3,20 +3,20 @@ pr:
   branches:
     include:
       - master
-      - gatesgarth
+      - sumo
 jobs:
 
 ################################################################################
-  - job: gatesgarth
+  - job: sumo
 ################################################################################
-    displayName: Gatesgarth
+    displayName: sumo
     pool:
       name: azureiotedge
       demands:
         - yocto
     timeoutInMinutes: 360
     steps:
-      - script: scripts/fetch.sh gatesgarth
+      - script: scripts/fetch.sh sumo
         displayName: Fetch
         env:
           METARUST_REV: 'c72b2dda3a4f70ed257c7de9bedb4b04732970a4'
