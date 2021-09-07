@@ -12,20 +12,20 @@ This layer depends on:
 ```
 URI: git://github.com/meta-rust/meta-rust.git
 branch: master
-revision: HEAD
+revision: c72b2dda3a4f70ed257c7de9bedb4b04732970a4
 prio: default
 ```
 
 ```
 URI: git://git.yoctoproject.org/meta-virtualization
-branch: sumo
+branch: gatesgarth
 revision: HEAD
 prio: default
 ```
 
 ```
 URI: git://github.com/openembedded/openembedded-core.git
-branch: sumo
+branch: gatesgarth
 revision: HEAD
 prio: default
 ```
