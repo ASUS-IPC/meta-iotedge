@@ -256,13 +256,13 @@ SRC_URI += " \
 "
 
 SRCREV_FORMAT .= "_hyperlocal-windows"
-SRCREV_hyperlocal-windows = "${AUTOREV}"
+SRCREV_hyperlocal-windows = "main"
 EXTRA_OECARGO_PATHS += "${WORKDIR}/hyperlocal-windows"
 SRCREV_FORMAT .= "_mio-uds-windows"
-SRCREV_mio-uds-windows = "${AUTOREV}"
+SRCREV_mio-uds-windows = "main"
 EXTRA_OECARGO_PATHS += "${WORKDIR}/mio-uds-windows"
 SRCREV_FORMAT .= "_tokio-uds-windows"
-SRCREV_tokio-uds-windows = "${AUTOREV}"
+SRCREV_tokio-uds-windows = "main"
 EXTRA_OECARGO_PATHS += "${WORKDIR}/tokio-uds-windows"
 
 #
